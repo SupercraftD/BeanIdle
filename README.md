@@ -9,6 +9,6 @@ all in all,  if you want to try it out, go right ahead.
 
 If you are an actual good dev, pls help or add on to  it.
 
-#Game-related
+# Game-related
 standard idle game, harvest beans, buy farms, factories, etc.
 press "g" to get 100 beans
