@@ -3,32 +3,32 @@ var total = 0;
 
 //pots
 var pots = 0;
-var potcost = 10
+var potcost = 10^pots+1
 var potvalue = 2
 
 //gardens
 var gardens = 0;
-var garcost = 50
+var garcost = 50^pots+1
 var garvalue = 10
 
 //farms
 var farms = 0;
-var farcost = 200;
+var farcost = 200^farms+1;
 var farvalue = 50;
 
 //offices
 var offices = 0;
-var offcost = 500;
+var offcost = 500^offices+1;
 var offvalue = 200
 
 //factories
 var factories = 0;
-var faccost = 2000;
+var faccost = 2000^factories+1;
 var facvalue = 1000;
 
 //megafactories
 var megas = 0;
-var megcost = 5000;
+var megcost = 5000^megas+1;
 var megvalue = 3000;
 
 function opentab(evt, tabName) {
