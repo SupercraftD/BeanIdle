@@ -97,7 +97,7 @@ function potsmanager(){
     document.getElementById("pots").addEventListener("click",function(ev){
         if (beans >= potcost){
             beans -= potcost
-            potcost *=1.5
+            potcost *=2
             document.getElementById("beancount").innerHTML = "Beans: "+beans
             document.getElementById("potcost").innerHTML = potcost + " beans"
             
@@ -125,7 +125,7 @@ function gardenmanager(){
     document.getElementById("gardens").addEventListener("click",function(ev){
         if (beans >= garcost){
             beans -= garcost
-            garcost*=1.5
+            garcost*=2
             document.getElementById("beancount").innerHTML = "Beans: "+beans
             document.getElementById("garcost").innerHTML = garcost + " beans"
             
@@ -154,7 +154,7 @@ function farmmanager(){
     document.getElementById("farms").addEventListener("click",function(ev){
         if (beans >= farcost){
             beans -= farcost
-            farcost*=1.5
+            farcost*=2
             document.getElementById("beancount").innerHTML = "Beans: "+beans
             document.getElementById("farcost").innerHTML = farcost + " beans"
             
@@ -183,7 +183,7 @@ function officemanager(){
     document.getElementById("office").addEventListener("click",function(ev){
         if (beans >= offcost){
             beans -= offcost
-            offcost*=1.5
+            offcost*=2
             document.getElementById("beancount").innerHTML = "Beans: "+beans
             document.getElementById("offcost").innerHTML = offcost + " beans"
             
@@ -211,7 +211,7 @@ function factorymanager(){
     document.getElementById("factory").addEventListener("click",function(ev){
         if (beans >= faccost){
             beans -= faccost
-            faccost*=1.5
+            faccost*=2
             document.getElementById("beancount").innerHTML = "Beans: "+beans
             document.getElementById("faccost").innerHTML = faccost + " beans"
             
@@ -239,7 +239,7 @@ function megamanager(){
     document.getElementById("mega").addEventListener("click",function(ev){
         if (beans >= megcost){
             beans -= megcost
-            megcost*=1.5
+            megcost*=2
             document.getElementById("beancount").innerHTML = "Beans: "+beans
             document.getElementById("megcost").innerHTML = megcost + " beans"
             
