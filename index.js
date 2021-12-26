@@ -1,4 +1,4 @@
-var beans = 1000000;
+var beans = 0;
 var total = 0;
 
 //pots
