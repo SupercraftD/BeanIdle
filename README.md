@@ -13,6 +13,7 @@ If you are an actual good dev, pls help or add on to  it.
 
 # Game-related
 standard idle game, harvest beans, buy farms, factories, etc.
+
 press "g" to get 100 beans
 
 play link (hosted on github pages): www.beanharvester.ga
